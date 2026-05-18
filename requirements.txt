@@ -1,0 +1,35 @@
+# Core scientific stack
+numpy>=1.26,<2.0
+pandas>=2.1
+matplotlib>=3.8
+seaborn>=0.13
+scipy>=1.11
+
+# RAG framework + LLM
+llama-index>=0.10
+llama-index-llms-groq>=0.1.4
+llama-index-embeddings-huggingface>=0.2
+
+# Vector database
+chromadb>=0.4.22
+llama-index-vector-stores-chroma>=0.1.6
+
+# Embeddings model
+sentence-transformers>=2.5
+torch>=2.1
+
+# PDF parsing
+pymupdf>=1.23
+
+# Eye-tracking data download
+requests>=2.31
+
+# Web interface
+streamlit>=1.32
+
+# Environment management
+python-dotenv>=1.0
+
+# Dev
+pytest>=7.4
+jupyter>=1.0
